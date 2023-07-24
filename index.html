@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+html{
+background:black;
+
+}
+
+
+@media only screen and (max-width: 850px) {
+html{
+margin-top:180px!important;}
+}
+
+.bgimg {
+  background-image: url('massage-sto-spiti.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.black-box {
+background: rgba(0,0,0,0.8);
+padding: 20px 80px;
+border: 20px double white;
+text-decoration: underline;
+border-radius:10px;
+
+}
+.black-box-mini {
+background: rgba(0,0,0,0.8);
+padding: 20px;
+margin-top:-30px;
+border: 2px solid white;
+border-top:none!important;
+font-style: italic;
+font-size: 30px !important;
+z-index: -1;
+
+}
+.black-box-button {
+background: black;
+padding: 20px 80px;
+border-radius: 100px;
+border:15px solid white;
+box-shadow: -10px 10px 2px rgba(0,0,0,0.3);
+color:lightgreen;
+}
+
+.contact{
+font-weight: bold;
+font-size: 20px !important;
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-center w3-animate-top black-box">Μασάζ Στο Σπίτι</h1>
+  
+     <p class="w3-large w3-center w3-animate-top black-box-mini">Σύντομα και πάλι κοντά σας!!!</p>
+       <hr class="w3-border-black" style="margin:auto;width:40%">
+       <a href="mailto:info@massagestospiti.gr"> <h1 class="w3-medium w3-animate-top w3-center black-box-button contact"><img src="tap-white.png" width="60" height="50" style="padding-right:10px;">Επικοινωνία: info@massagestospiti.gr</h1></a>
+   
+  </div>
+ 
+</div>
+
+</body>
+</html>
+
